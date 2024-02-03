@@ -15,28 +15,4 @@ public class User {
   private String fullname;
   private Status status;
 
-  public String getNickname() {
-    return this.nickname;
-  }
-
-  public void setNickname(String nickname) {
-    this.nickname = nickname;
-  }
-
-  public String getFullname() {
-    return this.fullname;
-  }
-
-  public void setFullname(String fullname) {
-    this.fullname = fullname;
-  }
-
-  public Status getStatus() {
-    return this.status;
-  }
-
-  public void setStatus(Status status) {
-    this.status = status;
-  }
-
 }
